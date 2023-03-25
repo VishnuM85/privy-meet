@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins&family=Righteous&family=Satisfy&display=swap');
+.copyButton{
+    padding: 12px;
+    border-radius: 50px;
+    margin-left: 5px;
+    background-color: rgb(64, 64, 64);
+    color: whitesmoke;
+    font-weight: 700;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: Chakra Petch;
+    outline: none;
+    border: 0px;
+}
+.copyButton:active{
+    background-color: rgb(55, 55, 55);
+}

@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import ReactTooltip from "react-tooltip";
 import "./MeetingFooter.css";
+import CopyUrl from "./copyUrl";
 const MeetingFooter = (props) => {
   const [streamState, setStreamState] = useState({
     mic: true,
@@ -78,6 +79,7 @@ const MeetingFooter = (props) => {
       >
         <FontAwesomeIcon icon={faDesktop} />
       </div>
+      <CopyUrl />
       <ReactTooltip />
     </div>
   );
