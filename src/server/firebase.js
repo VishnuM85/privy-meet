@@ -1,8 +1,8 @@
 import firebase from "firebase";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBDsLX0v_g_FGgtMj2I-Pz5KFnVUZSTejM", // Add API Key
-  databaseURL:"https://privy-meet-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
+  apiKey: "AIzaSyAAKlLDWVmlwyrREgQsl2YckEha8NwjGvQ", // Add API Key
+  databaseURL:"https://privy-meet-676869-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
